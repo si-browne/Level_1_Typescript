@@ -1,0 +1,11 @@
+Message Channel – dedicated path for communication.
+
+Message Bus – central messaging backbone.
+
+Message Router – route based on rules/content.
+
+Message Translator – convert between formats.
+
+Message Filter – remove unwanted messages.
+
+Message Broker – orchestrate message exchange.

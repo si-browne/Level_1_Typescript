@@ -1,0 +1,26 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "A Package dedicated to learning TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./precompiled/index.ts",
+    "memento-example": "ts-node ./precompiled/memento-example-output.ts",
+    "memento-exercise-1": "ts-node ./precompiled/Practice/memento-exercise-1-output.ts",
+    "factory-example": "ts-node ./precompiled/factory-example-output.ts",
+    "factory-exercise-1": "ts-node ./precompiled/Practice/factory-exercise-1-output.ts",
+    "singleton-example": "ts-node ./precompiled/singleton-example-output.ts",
+    "singleton-exercise-1": "ts-node ./precompiled/Practice/singleton-exercise-1-output.ts",
+    "mediator-example": "ts-node ./precompiled/mediator-example-output.ts",
+    "mediator-exercise-1": "ts-node ./precompiled/Practice/mediator-exercise-1-output.ts",
+    "build": "tsc",
+    "run": "node ./compiled/index.js"
+  },
+  "author": "Simon Browne",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

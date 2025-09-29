@@ -1,0 +1,1 @@
+{"version":3,"file":"Caretaker.d.ts","sourceRoot":"","sources":["../../../../../precompiled/Design Patterns/Implemented/Behavioural/Memento/Caretaker.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,UAAU,EAAE,MAAM,cAAc,CAAC;AAE1C,qBAAa,SAAS;IAEN,OAAO,CAAC,QAAQ,CAAC,UAAU;IADvC,OAAO,CAAC,OAAO,CAAkB;gBACJ,UAAU,EAAE,UAAU;IACnD,MAAM,IAAI,IAAI;IACd,IAAI,IAAI,IAAI;IAIZ,WAAW,IAAI,IAAI;CACtB"}
