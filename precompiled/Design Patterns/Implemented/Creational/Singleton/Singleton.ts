@@ -1,8 +1,10 @@
 // GOOD USE CASES FOR SINGLETON:
+//--------------------------------
 // Feature Flags
 // Configuration
 // Global Variables
 // HTTP Client
+// Lightweight Logger
 
 export enum LogLevel {
     DEBUG = 10,
