@@ -45,3 +45,41 @@ export class Logger {
     public warn(msg: string)  { this.log(LogLevel.WARN, msg); }
     public error(msg: string) { this.log(LogLevel.ERROR, msg); }
 }
+
+
+
+/* NOTES
+
+class LogMessage {
+
+    private logMessage: string;
+
+    constructor(message: string) {
+        this.logMessage = message;
+    }
+
+    logMessageToConsole() {
+
+    }
+}
+
+    a true singleton will only have the values in it to begin with sealed from the start
+    a static object - pretty useless actually
+
+class Logger {
+
+    private static _instance: Logger = new Logger();
+
+    public static instance = Logger._instance;
+
+    public timestamp: Number;
+
+    private constructor() {
+
+        this.timestamp = Date.now();
+    }
+
+}
+
+console.log("my singleton is: " + Logger.instance.timestamp);
+*/
